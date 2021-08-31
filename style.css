@@ -2,17 +2,30 @@
   margin: 0;
   padding: 0;
 }
-h4 {
-  color: blanchedalmond;
-}
+
 .container {
-  padding: 50px;
-  margin-top: 25vh;
   width: 20%;
-  height: 10vh;
+  height: 30vh;
   background-color: black;
-  align-items: center;
-  text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+}
+h2 {
+  color: aliceblue;
+  margin-top: 10vh;
+}
+button {
+  margin: 5px;
+  cursor: pointer;
+  width: 80%;
+  height: 5vh;
+}
+button:hover {
+  background-color: red;
+  cursor: pointer;
 }
